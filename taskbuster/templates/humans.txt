@@ -2,14 +2,13 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
+    Rodrigo Maller -- Developer -- @rmallermartins
 
 # THANKS
-
-    <name>
+    Thanks all
 
 # TECHNOLOGY COLOPHON
-
+    Django
     HTML5, CSS3
     jQuery, Modernizr
+    Twitter Bootstrap
