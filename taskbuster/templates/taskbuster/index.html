@@ -1,21 +1,23 @@
 {% extends "base.html" %}
+
 {% load i18n %}
 {% load l10n %}
 {% load tz %}
+
 {% block head_title %}TaskBuster Django Tutorial{% endblock %}
 
 {% block content %}
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>{% trans "Hello, world!" %}</h1>
-        <p>{% blocktrans %}TaskBuster is a simple Task manager that helps you organize your daylife. </br> You can create todo lists, periodic tasks and more! </br></br> If you want to learn how it was created, or create it yourself!, check www.django-tutorial.com{% endblocktrans %}</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
+        <div class="container">
+            <h1>{% trans "Hello, world!"%}</h1>
+            <p>{% blocktrans %}TaskBuster is a simple Task manager that helps you organize your daylife. </br> You can create todo lists, periodic tasks and more! </br></br> If you want to learn how it was created, or create it yourself!, check www.django-tutorial.com{% endblocktrans %}</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+        <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
                 <h2 id="local-date">{{ today }}</h2>

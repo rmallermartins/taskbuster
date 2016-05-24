@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-22 18:08+0000\n"
+"POT-Creation-Date: 2016-05-24 10:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,32 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: taskbuster/settings/base.py:123
+#: taskbuster/settings/base.py:122
 msgid "English"
 msgstr ""
 
-#: taskbuster/settings/base.py:124
+#: taskbuster/settings/base.py:123
 msgid "Portuguese (Brazil)"
 msgstr ""
 
-#: taskbuster/templates/taskbuster/index.html:9
-msgid "Hello, world!"
-msgstr "Olá, mundo!"
+#: taskbuster/settings/base.py:124
+msgid "Catalan"
+msgstr ""
 
-#: taskbuster/templates/taskbuster/index.html:10
+#: taskbuster/templates/taskbuster/index.html:13
+msgid "Hello, world!"
+msgstr "Benvingut a TaskBuster!"
+
+#: taskbuster/templates/taskbuster/index.html:14
 msgid ""
 "TaskBuster is a simple Task manager that helps you organize your daylife. </"
 "br> You can create todo lists, periodic tasks and more! </br></br> If you "
 "want to learn how it was created, or create it yourself!, check www.django-"
 "tutorial.com"
 msgstr ""
-"TaskBuster é um simples gerenciador de tarefas que te ajudar a organizar "
-"seu dia à dia. </br> Você pode criar uma lista de afazeres, tarefas periodicas "
-"e mais! </br></br> Se você quiser aprender como foi criado, ou cria-lo você "
-"mesmo!, de uma olhada em www.django-tutorial.com"
+"TaskBuster és un administrador senzill de tasques que t'ajuda a administrar "
+"el teu dia a dia. </br> Pots crear llistes de coses pendents, tasques "
+"periòdiques i molt més! </br></br> Si vols apendre com s'ha creat, o"
+"crear-lo tu mateix!, visita la pàgina <a href='http://www.marinamele.com/taskbuster-django-tutorial' target=_'blank'>Taskbuster Django Tutorial</a>."

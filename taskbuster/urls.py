@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """taskbuster URL Configuration.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -20,7 +21,7 @@ from .views import home, home_files
 
 urlpatterns = [
     url(r'^(?P<filename>(robots.txt)|(humans.txt))$',
-        home_files, name='home_files'),
+        home_files, name='home-files'),
 ]
 
 urlpatterns += i18n_patterns(
