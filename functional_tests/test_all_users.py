@@ -39,8 +39,8 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
     def test_internationalization(self):
         languages = [
             ('ca', 'Benvingut a TaskBuster!'),
-            ('pt-br', 'Olá, mundo!'),
-            ('en', 'Hello, world!'),
+            ('pt-br', 'Bem vindo ao TaskBuster!'),
+            ('en', 'Welcome to TaskBuster!'),
         ]
         for lang, h1_text in languages:
             activate(lang)
@@ -50,7 +50,7 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
 
     def test_localization(self):
         today = date.today()
-        for lang in ['en', 'pt-br']:
+        for lang in ['en', 'pt-br', 'ca']:
             activate(lang)
             self.browser.get(self.get_full_url("home"))
             local_date = self.browser.find_element_by_id("local-date")

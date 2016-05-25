@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-24 10:41-0300\n"
+"POT-Creation-Date: 2016-05-24 11:05-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,8 @@ msgid "Catalan"
 msgstr "Catalão"
 
 #: taskbuster/templates/taskbuster/index.html:13
-msgid "Hello, world!"
-msgstr "Olá, mundo!"
+msgid "Welcome to TaskBuster!"
+msgstr "Bem vindo ao TaskBuster!"
 
 #: taskbuster/templates/taskbuster/index.html:14
 msgid ""
@@ -45,3 +45,6 @@ msgstr ""
 "dia à dia. </br> Você pode criar uma lista de afazeres, tarefas periodicas e "
 "mais! </br></br> Se você quiser aprender como foi criado, ou cria-lo você "
 "mesmo!, de uma olhada em www.django-tutorial.com"
+
+#~ msgid "Hello, world!"
+#~ msgstr "Olá, mundo!"
